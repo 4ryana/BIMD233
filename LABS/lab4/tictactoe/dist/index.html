@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - tictactoe</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<style>
+  body {
+    margin: 20px;
+    padding: 0px;
+  }
+</style>
+
+<body>
+  <canvas id="myCanvas" width="600" height="600">
+    Update your brower for Canvas.
+  </canvas>
+
+  <script>
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    var background = new Image();
+    background.src = "https://t3.ftcdn.net/jpg/04/15/64/98/360_F_415649891_o1C3n3N3WucOFSK5zExC0hd13TuOeEIJ.jpg";
+    background.onload = function() {
+      context.drawImage(background, 10, 10, 600, 600);
+      context.beginPath();
+      context.moveTo(200, 20);
+      context.lineTo(200, 590);
+      context.lineWidth = 5;
+      context.stroke();
+      context.closePath();
+      context.beginPath();
+      context.moveTo(400, 20);
+      context.lineTo(400, 590);
+      context.lineWidth = 5;
+      context.stroke();
+      context.closePath();
+      context.beginPath();
+      context.moveTo(20, 200);
+      context.lineTo(590, 200);
+      context.lineWidth = 5;
+      context.stroke();
+      context.closePath();
+      context.beginPath();
+      context.moveTo(20, 400);
+      context.lineTo(590, 400);
+      context.lineWidth = 5;
+      context.stroke();
+      context.closePath();
+      context.beginPath();
+      context.moveTo(390, 215);
+      context.lineTo(210, 390);
+      context.lineWidth = 5;
+      context.stroke();
+      context.closePath();
+      context.beginPath();
+      context.moveTo(390, 390);
+      context.lineTo(210, 215);
+      context.lineWidth = 5;
+      context.stroke();
+      context.closePath();
+      context.beginPath();
+      context.arc(105, 105, 80, 0, 2 * Math.PI);
+      context.stroke();
+      context.closePath();
+      context.beginPath();
+      context.arc(495, 495, 80, 0, 2 * Math.PI);
+      context.stroke();
+      context.closePath();
+    };
+  </script>
+
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
