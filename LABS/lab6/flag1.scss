@@ -11,12 +11,14 @@ $colspan: 1px;
     background-color: $bgcolor-red;
     width: $row-width;
     height: $row-height;
+    column-span: $colspan;
 }
 
 .white_stripe {
     background-color: $bgcolor-white;
     width: $row-width;
     height: $row-height;
+    column-span: $colspan;
 }
 
 #flag_frame {
