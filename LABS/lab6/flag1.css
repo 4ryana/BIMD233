@@ -2,12 +2,14 @@
   background-color: red;
   width: 350px;
   height: 20px;
+  column-span: 1px;
 }
 
 .white_stripe {
   background-color: white;
   width: 350px;
   height: 20px;
+  column-span: 1px;
 }
 
 #flag_frame {
