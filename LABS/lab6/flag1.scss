@@ -1,0 +1,36 @@
+$flag-height: 400px;
+$aspect-ratio: 16/9;
+$bgcolor-white: white;
+$bgcolor-red: red;
+$bgcolor-blue: blue;
+$row-width: 350px;
+$row-height: 20px;
+$colspan: 1px;
+
+.red_stripe {
+    background-color: $bgcolor-red;
+    width: $row-width;
+    height: $row-height;
+    column-span: $colspan;
+}
+
+.white_stripe {
+    background-color: $bgcolor-white;
+    width: $row-width;
+    height: $row-height;
+    column-span: $colspan;
+}
+
+#flag_frame {
+    height: $flag-height;
+    aspect-ratio: $aspect-ratio; 
+}
+
+#starcells {
+    background-color: $bgcolor-blue;
+}
+
+#stars {
+    color: $bgcolor-white;
+}
+
