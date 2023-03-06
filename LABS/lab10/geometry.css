@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    color: hotpink;
+    text-align: center;
+}
+
+#radius-values {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+
+.container{
+    position: fixed;
+    top: 35%;
+    left: 42%;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}

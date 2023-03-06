@@ -1,0 +1,9 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+h1, th, td {
+    text-align: center;
+}
+

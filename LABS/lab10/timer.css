@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    color: hotpink;
+    font-family: sans-serif;
+}
+.container{
+    position: fixed;
+    top: 45%;
+    left: 43%;
+}
+
+table {
+    font-size: x-large;
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}

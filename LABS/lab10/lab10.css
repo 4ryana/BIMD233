@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(142, 165, 136);
+}
+a {
+    color: black; 
+}
+a:hover {
+    color: white;
+}
+.container  {
+    font-family: monospace;
+    font-size:xx-large;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    left: 46%;
+    margin: -50px 0 0 -50px;
+}
