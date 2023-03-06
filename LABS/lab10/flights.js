@@ -1,4 +1,5 @@
 var flight = new Array();
+/** had difficulty formulaing duration function and did not include **/
     flight[0] = {
         Airline: 'Alaska',
         Flight: 'ASA107',
